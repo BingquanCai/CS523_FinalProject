@@ -8,7 +8,7 @@ Team Members: Kaiyang Zhao (kyzhao@bu.edu) / Bingquan Cai (bqcai@bu.edu) / Bin X
 
 ## Guide of running code
 
-After installing libs, running Four .ipynb in our project.
+After installing libs, running Four .ipynb in our project. There are specific instruction in every file.
 
 FER2013_explainability.ipynb
 
