@@ -83,6 +83,8 @@ Being able to recognize facial expressions is key to nonverbal communication bet
   - Loss: 1.2933
   - Learning rate: 0.0005
   - Validation Accuracy: 0.8852
+  
+<img src="https://github.com/BingquanCai/CS523_FinalProject/blob/main/src/origin_model.png" width=411 height=267>
 
 ### Other models
 
@@ -90,6 +92,8 @@ Being able to recognize facial expressions is key to nonverbal communication bet
 - CPCPCPFFF: Accuracy: 0.5598
 - CCPCCPCCPFF: Accuracy: 0.5929
 - Ensemble Model: Accuracy: 0.6863
+
+![alt text](https://github.com/BingquanCai/CS523_FinalProject/blob/main/src/5-layer-CNN.png)
 
 ## Experiment
 
@@ -108,6 +112,8 @@ Being able to recognize facial expressions is key to nonverbal communication bet
 - 1st Experiment
   - Early stop at epoch 25 
   - Model overfitting
+  
+![alt text](https://github.com/BingquanCai/CS523_FinalProject/blob/main/src/1stExperiment.png)
 
 - 2nd Experiment
   - Early stopping at Epoch 164
@@ -115,21 +121,29 @@ Being able to recognize facial expressions is key to nonverbal communication bet
   - Accuracy: 0.8912
   - No Overfitting nor Underfitting
 
+<img src="https://github.com/BingquanCai/CS523_FinalProject/blob/main/src/2ndExperiment.png" width=411 height=267>
 
 ## Feature visualization
 
 ### Visualizing Filters
 Visualize the learned filters, used by CNN to convolve the feature maps.
 
+![alt text](https://github.com/BingquanCai/CS523_FinalProject/blob/main/src/filter_visualization.png)
+
 ### Visualizing feature maps
 Called Activation Map, is obtained with the convolution operation, applied to the input data using the filter/kernel.
 
+![alt text](https://github.com/BingquanCai/CS523_FinalProject/blob/main/src/feature_map.png)
 
 ## Explainability
 
 ### Correct predictions
 
+![alt text](https://github.com/BingquanCai/CS523_FinalProject/blob/main/src/gradcam_correct_predictions.png)
+
 ### Wrong predictions
+
+![alt text](https://github.com/BingquanCai/CS523_FinalProject/blob/main/src/gradcam_wrong_predictions.png)
 
 ## Conclusion
 
