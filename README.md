@@ -78,7 +78,18 @@ Being able to recognize facial expressions is key to nonverbal communication bet
 
 ### Origin model
 
+- Training Results of VGG16:
+  - Early stoppage at epoch 203
+  - Loss: 1.2933
+  - Learning rate: 0.0005
+  - Validation Accuracy: 0.8852
+
 ### Other models
+
+- 5-layer-CNN: Accuracy: 0.6339
+- CPCPCPFFF: Accuracy: 0.5598
+- CCPCCPCCPFF: Accuracy: 0.5929
+- Ensemble Model: Accuracy: 0.6863
 
 ## Experiment
 
@@ -95,18 +106,41 @@ Being able to recognize facial expressions is key to nonverbal communication bet
 
 ### Result
 - 1st Experiment
+  - Early stop at epoch 25 
+  - Model overfitting
 
 - 2nd Experiment
+  - Early stopping at Epoch 164
+  - Loss: 1.1461
+  - Accuracy: 0.8912
+  - No Overfitting nor Underfitting
+
 
 ## Feature visualization
 
-### Details
+### Visualizing Filters
+Visualize the learned filters, used by CNN to convolve the feature maps.
+
+### Visualizing feature maps
+Called Activation Map, is obtained with the convolution operation, applied to the input data using the filter/kernel.
+
 
 ## Explainability
 
-### Details
+### Correct predictions
+
+### Wrong predictions
 
 ## Conclusion
+
+- Reproduce and fine-tune the model for FER2013 dataset
+- Perform feature visualization on the model
+- Show the explainability of the model
+- Future steps:
+  - Further improve accuracy 
+  - Study the bias that affect datasets related to FER problem
+  - Evaluate the model on additional datasets (real-world questions)
+
 
 ## References
 
