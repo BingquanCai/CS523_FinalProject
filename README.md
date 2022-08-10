@@ -6,6 +6,18 @@ Team Members: Kaiyang Zhao (kyzhao@bu.edu) / Bingquan Cai (bqcai@bu.edu) / Bin X
 
 # Facial Expression Recognition(FER) with Feature Visualization & Explainability
 
+## Guide of running code
+
+After installing libs, running Four .ipynb in our project. There are specific instruction in every file.
+
+FER2013_explainability.ipynb
+
+feature_visulization.ipynb
+
+Copy_of_VGG16_FACIAL_training.ipynb
+
+training.ipynb
+
 ## Motivation
 
 Being able to recognize facial expressions is key to nonverbal communication between humans. Facial expressions and other gestures convey nonverbal communication cues that play an important role in interpersonal relations. We can use algorithms to instantaneously detect faces, code facial expressions, and recognize emotional states.
