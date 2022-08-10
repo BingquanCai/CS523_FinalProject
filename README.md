@@ -73,3 +73,47 @@ Being able to recognize facial expressions is key to nonverbal communication bet
 - Matplotlib
 - Seaborn
 - skimage
+
+## Model Training
+
+### Origin model
+
+### Other models
+
+## Experiment
+
+### Setup
+
+- 1st experiment: CNN training and inference - State-of-Art: 
+  - 600 epochs
+  - learning rate = 0.1
+  - batch size = 128
+
+- 2nd experiment: Networks: Classification & dataset preprocessing
+  - Illumination Correction
+
+
+### Result
+- 1st Experiment
+
+- 2nd Experiment
+
+## Feature visualization
+
+### Details
+
+## Explainability
+
+### Details
+
+## Conclusion
+
+## References
+
+- Goodfellow I J, Erhan D, Carrier P L, et al. Challenges in representation learning: A report on three machine learning contests[C]//International conference on neural information processing. Springer, Berlin, Heidelberg, 2013: 117-124.
+
+- Pramerdorfer C, Kampel M. Facial expression recognition using convolutional neural networks: state of the art[J]. arXiv preprint arXiv:1612.02903, 2016.
+
+- Debnath, T., Reza, M., Rahman, A., Beheshti, A., Band, S. S., & Alinejad-Rokny, H. (2022). Four-layer ConvNet to facial emotion recognition with minimal epochs and the significance of data diversity. Scientific Reports, 12(1), 1-18.
+
+- Selvaraju R R, Cogswell M, Das A, et al. Grad-cam: Visual explanations from deep networks via gradient-based localization[C]//Proceedings of the IEEE international conference on computer vision. 2017: 618-626.
